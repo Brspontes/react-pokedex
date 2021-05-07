@@ -5,7 +5,7 @@ export function Card(pokemon: Pokemon) {
 
   function capitalize(str: string){
     return str.charAt(0).toUpperCase() + str.slice(1);
-  }
+  } 
 
   return (
     <div className={`${pokemon.types[0].type.name} ${styles.card}` }>
